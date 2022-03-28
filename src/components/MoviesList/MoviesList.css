@@ -1,0 +1,29 @@
+.movies-list-container {
+  margin: 0 10%;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container select {
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-pagination-container {
+  display: flex;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.line {
+  border: solid white 1px;
+  margin: 10px;
+}
