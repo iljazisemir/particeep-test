@@ -14,10 +14,7 @@ const initialState = {
 export const getMovies = createAsyncThunk("movies/getMovies", async () => {
   try {
     let response = await movies$;
-    response = JSON.stringify(response);
-    response = JSON.parse(response);
-    let data = await response;
-    return data;
+    return response;
   } catch (error) {
     throw Error(error);
   }
